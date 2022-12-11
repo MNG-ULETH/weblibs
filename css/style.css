@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Klee One', cursive;
+
+    /* base font styles */
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+    background-color: #dbb4ff;
+    background-image: url("../images/backhearts.png");
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    padding: 80px 50px;
+}
+
+header .wrapper {
+    padding: 20px 50px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-color: #511ccc;
+}
+
+
+.landingheading {
+    color: #671ddd;
+    text-align: center;
+    font-family: 'Klee One', cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    opacity: 60%;
+
+
+
+}
+
+
+.headerflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* remove default ul styling */
+.primary-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* code the layout for the nav */
+    display: flex;
+    column-gap: 100px;
+
+
+}
+
+.primary-nav li {
+    color: white;
+    font-family: 'Klee One', cursive;
+    font-size: 2.5vw;
+    font-weight: bold;
+    transition: 0.5s;
+    font-style: italic;
+
+
+
+}
+
+.primary-nav .current li {
+    color: white;
+    font-family: 'Klee One', cursive;
+    font-size: 2.5vw;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: underline;
+
+
+
+}
+
+.primary-nav .other {
+    color: white;
+    font-family: 'Klee One', cursive;
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+    opacity: 48%;
+
+}
+
+.primary-nav li:hover {
+    color: white;
+    font-family: 'Klee One', cursive;
+    text-decoration: underline;
+    text-decoration-color: #e2dfe7;
+    opacity: 30%;
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+.logo {
+    max-width: 325px;
+}
+
+.icon {
+
+    transition: 0.4s;
+    padding: 15px;
+
+
+}
+
+.icon:hover {
+    opacity: 50%;
+}
+
+.iconflex {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #671ddd;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 70px;
+    opacity: 80%;
+
+}
+
+.groupheader {
+    color: #671ddd;
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+
+}
+
+
+
+
+.lovechild {
+    grid-column: 2;
+}
+
+
+.lovechild2 {
+    grid-column: 3;
+}
+
+.gridgroups {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
+    text-align: center;
+
+
+
+}
+
+.submit {
+    background-color: #6d1dd6;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    border-radius: 40px;
+
+}
+
+.button {
+    text-align: center;
+    padding-top: 90px;
+    cursor: pointer;
+}
+
+
+.submit:hover {
+    background-color: #4b1592;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Klee One', cursive;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.lovepara {
+    font-family: 'Klee One', cursive;
+    color: #4b1592;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+
+.instructions {
+    font-family: 'Klee One', cursive;
+    color: #51068f70;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    text-decoration: underline;
+    text-decoration-color: #51068f1e;
+    padding-top: 50px;
+
+
+}
+
+
+.helptable {
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 0;
+
+}
+
+.table {
+    max-width: 500px;
+}
+
+.flexhelp {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+input {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.lovebody {
+    background-image: url("../images/backhearts.png");
+}
+
+.warbody {
+    background-image: url("../images/action.png");
+}
+
+.alienbody {
+    background-image: url("../images/backaliens.png");
+}
